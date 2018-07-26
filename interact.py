@@ -46,5 +46,5 @@ def email_handler():
 
 
 # print "Great " + user_name + "! We'll get you a " + user_coffee + " and a " + user_pastry + " right away!"
-
-app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
